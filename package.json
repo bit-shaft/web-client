@@ -19,6 +19,9 @@
       "eslint"
     ]
   },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
   "dependencies": {
     "next": "^12.1.6",
     "react": "^18.1.0",
