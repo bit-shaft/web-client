@@ -1,0 +1,19 @@
+{
+  "name": "web-client",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:the-aniside/web-client.git",
+  "author": "MatheusLittig <littig.works@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1"
+  },
+  "lint-staged": {
+    "src/**/*.+(js|json|ts|tsx)": [
+      "eslint"
+    ]
+  }
+}
